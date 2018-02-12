@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.cmathew.kickchase.WelcomeActivity$PlaceholderFragment">
+    tools:context="com.example.cmathew.kickchase.welcome.OverviewActivity$PlaceholderFragment">
 
     <TextView
         android:id="@+id/section_label"

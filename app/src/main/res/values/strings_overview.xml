@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="overview_title_prepare_slide">Prepare</string>
+    <string name="overview_title_react_slide">React</string>
+
+    <string name="overview_header_welcome_slide">Welcome!</string>
+    <string name="overview_header_prepare_slide">Position yourself</string>
+    <string name="overview_header_react_slide">Judge the kick</string>
+
+    <string name="overview_message_welcome_slide">KickChase trains optimal catcher play.</string>
+    <string name="overview_message_prepare_slide">Read the situation and plan your approach.</string>
+    <string name="overview_message_react_slide">"Guess the ball's trajectory to figure out your role in the play."</string>
+</resources>

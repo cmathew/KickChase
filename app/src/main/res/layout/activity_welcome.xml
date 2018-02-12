@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    tools:context="com.example.cmathew.kickchase.WelcomeActivity">
+    tools:context="com.example.cmathew.kickchase.welcome.OverviewActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
