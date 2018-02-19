@@ -3,4 +3,7 @@
     <color name="colorPrimary">#ff6000</color>
     <color name="colorPrimaryDark">#bf360c</color>
     <color name="colorAccent">#7200ff</color>
+
+    <color name="heat_map_cool">#ffcb00</color>
+    <color name="heat_map_hot">#d72300</color>
 </resources>

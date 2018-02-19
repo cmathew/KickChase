@@ -1,26 +1,37 @@
 package com.example.cmathew.kickchase.welcome;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-public class OverviewPageAdapter extends FragmentPagerAdapter {
-    //private List<OverviewSlide> slides;
+import java.util.List;
 
-    public OverviewPageAdapter(FragmentManager fm) {
+public class OverviewPageAdapter extends FragmentPagerAdapter {
+    private Context context;
+    private List<OverviewSlide> slides;
+
+    public OverviewPageAdapter(Context ctx, FragmentManager fm, List<OverviewSlide> slides) {
         super(fm);
+
+        this.context = ctx;
+        this.slides = slides;
     }
 
     @Override
     public Fragment getItem(int position) {
-        // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-        return OverviewPageFragment.newInstance(position + 1);
+        OverviewSlide thisSlide = slides.get(position);
+        return OverviewPageFragment.newInstance(thisSlide);
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        OverviewSlide thisSlide = slides.get(position);
+        return context.getString(thisSlide.getTitle());
     }
 
     @Override
     public int getCount() {
-        // Show 3 total pages.
-        return 3;
+        return slides.size();
     }
 }

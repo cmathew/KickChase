@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cmathew.kickchase.game.ReactKickFragment">
+
+    <!-- Intended -->
+    <Button
+        android:id="@+id/react_kick_away"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Away" />
+
+    <Button
+        android:id="@+id/react_kick_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third" />
+
+    <Button
+        android:id="@+id/react_kick_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First" />
+
+    <!-- Unintended -->
+    <Button
+        android:id="@+id/react_kick_weak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weak" />
+
+    <Button
+        android:id="@+id/react_kick_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/react_kick_fly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pop-up" />
+
+</LinearLayout>
